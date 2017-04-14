@@ -1,0 +1,12 @@
+{
+  "bindings": [
+    {
+      "name": "sessionBlob",
+      "type": "blobTrigger",
+      "direction": "in",
+      "path": "proceduresteps/{name}",
+      "connection": "joncurtis_STORAGE"
+    }
+  ],
+  "disabled": false
+}
